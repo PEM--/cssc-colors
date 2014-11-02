@@ -1,13 +1,13 @@
 Package.describe({
   summary: 'Colors plugin for CSSC',
-  version: '0.1.0',
+  version: '1.0.0',
   name: 'pierreeric:cssc-colors',
   git: 'https://github.com/PEM--/cssc-colors.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.3.1');
-  api.use(['coffeescript', 'pierreeric:cssc@0.5.0']);
+  api.versionsFrom('METEOR@1.0.0');
+  api.use(['coffeescript', 'pierreeric:cssc@1.0.0']);
   api.addFiles('cssc-colors.coffee', 'client');
   api.imply('pierreeric:cssc');
 });
