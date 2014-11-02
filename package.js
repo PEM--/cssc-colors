@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use(['coffeescript', 'pierreeric:cssc']);
+  api.use('pierreeric:cssc@1.0.0');
   api.addFiles('cssc-colors.coffee', 'client');
   api.imply('pierreeric:cssc');
 });
