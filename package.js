@@ -6,8 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0.0');
-  api.use(['coffeescript', 'pierreeric:cssc@1.0.0']);
+  api.use(['coffeescript', 'pierreeric:cssc']);
   api.addFiles('cssc-colors.coffee', 'client');
   api.imply('pierreeric:cssc');
 });
