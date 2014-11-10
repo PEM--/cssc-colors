@@ -109,7 +109,7 @@ class CSSC.Clr
   rgba: ->
     # Make conversion to RGB if it hasn't done it before
     [@_r, @_g, @_b] = (CSSC.Clr.hsl2Rgb @_h, @_s, @_l) unless @_r?
-    "rgb(#{@_r},#{@_g},#{@_b},#{@_a})"
+    "rgba(#{@_r},#{@_g},#{@_b},#{@_a})"
 
   ###
   Transform to a HSL String.
@@ -127,7 +127,7 @@ class CSSC.Clr
   hsla: ->
     # Make conversion to HSL if it hasn't done it before
     [@_h, @_s, @_l] = (CSSC.Clr.rgb2Hsl @_r, @_g, @_b) unless @_h?
-    "hsl(#{360*@_h},#{100*@_s}%,#{100*@_l}%,#{@_a})"
+    "hsla(#{360*@_h},#{100*@_s}%,#{100*@_l}%,#{@_a})"
 
   ###
   Static chromatic conversion HSL to RGB.

@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Colors plugin for CSSC',
-  version: '1.0.2',
+  version: '1.0.3',
   name: 'pierreeric:cssc-colors',
   git: 'https://github.com/PEM--/cssc-colors.git'
 });
