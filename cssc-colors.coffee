@@ -17,6 +17,7 @@ CSSC.yellow = '#FFDC00'
 CSSC.fuchsia = '#F012BE'
 
 # Gray Scale Colors
+CSSC.darkgray = '#4B4A4A'
 CSSC.gray = '#AAAAAA'
 CSSC.white = '#FFFFFF'
 CSSC.black = '#111111'
